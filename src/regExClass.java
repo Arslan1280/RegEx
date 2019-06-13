@@ -33,7 +33,7 @@ public class regExClass {
 			if(m.matches())
 				System.out.printf("%-20s %s", IDs[i] , "Valid");
 			else
-				System.out.printf("%-20s %s", IDs[i] , "Invalida");
+				System.out.printf("%-20s %s", IDs[i] , "Invalid");
 			System.out.println();
 		}
 	}
